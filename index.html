@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>Inventory System</h2>
+      <form action="#" id="inputForm">
+        <div class="inputContainer">
+          <label for="item">Item:</label>
+          <input type="text" name="item" id="item" />
+        </div>
+
+        <div class="inputContainer">
+          <label for="quantity">Quantity:</label>
+          <input type="number" name="quantity" id="quantity" />
+        </div>
+
+        <div class="submit"><input type="submit" /></div>
+      </form>
+    </header>
+
+    <section class="setVisibility">
+      <label for="checkbox">View table</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+    </section>
+
+    <main class="tablesSection">
+      <table class="table table-striped">
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+      </table>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
